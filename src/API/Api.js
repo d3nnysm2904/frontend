@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const BASE_URL = process.env.REACT_APP_BASE_URL 
+const BASE_URL = process.env.REACT_APP_BASE_URL || " https://jobly0429.herokuapp.com";
 
 /** API Class.
  *
